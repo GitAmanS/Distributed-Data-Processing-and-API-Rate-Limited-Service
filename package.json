@@ -1,0 +1,21 @@
+{
+  "name": "distributed-data-processing-and-api-rate-limited-service",
+  "version": "1.0.0",
+  "description": "This project involves handling high-frequency API requests and processing large datasets in the background. This service will utilize clustering, rate limiting, Redis, and forking.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "Aman Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.1",
+    "cluster": "^0.7.7",
+    "express": "^4.19.2",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
